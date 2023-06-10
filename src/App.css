@@ -1,0 +1,144 @@
+/* app.css */
+
+/* Navbar */
+nav {
+  background-color: #10ebe0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0 10px;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* RetrieveData */
+
+
+
+
+
+
+.data-card h3 {
+  margin-top: 0;
+}
+
+.data-card button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.data-card button:hover {
+  background-color: #d32f2f;
+}
+
+
+
+
+/* PostForm */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #45a049;
+  border-radius: 50px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: white;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #eeefee;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+
+/*  */
+
+.toptable {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #e6b9b6;
+}
+
+.some1 {
+ color: #000;
+}
+
+.filterpart {
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+  color: #45a049;
+}
+
+
+
+.data-card {
+  border: 1px solid #7d0707;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #e6b9b6;
+  margin-top: 20px;
+}
+
+.data-container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
